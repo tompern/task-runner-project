@@ -1,0 +1,85 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    background-image: url("https://i.postimg.cc/3x8R7V91/pexels-mnz-1639729.jpg");
+    background-size: cover;
+    height: 700px;
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    padding: 6px 0 6px 0;
+    margin-top: 20px;
+}
+
+.nav{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.heading{
+    font-size: 38px;
+    text-align: center;
+}
+
+.heading-2{
+    margin-top: 50px;
+    font-size: 56px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin-top: 60px;
+    padding: 25px;
+    border-radius: 5px;
+    font-family: "Inconsolata", monospace;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(238, 204, 15, 0.822);
+    background-position: 100% 0;
+    background-size: 300%;
+  }
+
+.services{
+    height: 568px;
+}
+
+.serv-heading{
+    margin: 120px auto 20px auto;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.serv-afterheading{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-style: italic;
+    font-weight: 400;
+    color: gray;
+}
